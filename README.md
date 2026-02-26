@@ -33,13 +33,19 @@
 </head>
 <body class="p-4 md:p-8">
 
-    <nav class="max-w-7xl mx-auto flex justify-between items-center mb-12">
-        <img src="Pop Disrupt title.png" alt="Pop Disrupt" class="h-8 md:h-12 object-contain">
-        <div class="flex items-center gap-4">
-            <span class="hidden md:block text-sm font-medium opacity-60">Elevate Your Snack</span>
-            <img src="pd logo.png" alt="PD" class="h-10 w-10 rounded-xl border border-white/20 shadow-lg">
-        </div>
-    </nav>
+    <nav class="max-w-7xl mx-auto flex justify-between items-center mb-12 relative z-50">
+    <img src="Pop Disrupt title.png" 
+         alt="Pop Disrupt" 
+         class="h-8 md:h-12 object-contain" 
+         style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));">
+    
+    <div class="flex items-center gap-4">
+        <span class="hidden md:block text-sm font-medium opacity-60">Elevate Your Snack</span>
+        <img src="pd logo.png" 
+             alt="PD" 
+             class="h-10 w-10 rounded-xl border border-white/20 shadow-lg object-cover">
+    </div>
+</nav>
 
     <main class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         
